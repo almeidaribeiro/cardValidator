@@ -6,23 +6,24 @@ let cardValidator = require('../lib/index');
 
 describe('card lib', () => {
   describe('cardValidator', () =>{
-    it('card is invalid', () => {
-      expect(cardValidator.cardValidator('4716421870804443')).to.equal(false);
-    });
-    it('card is valid', () => {
+    it('it should be true', () => {
       expect(cardValidator.cardValidator('4929534188660375')).to.equal(true);
     });
-    it('card is invalid', () => {
+    it('it should be false', () => {
+      expect(cardValidator.cardValidator('4716421870804443')).to.equal(false);
+    });
+    it('it should be false', () => {
       expect(cardValidator.cardValidator(4929534188660375)).to.equal(false);
     });
-    it('card is invalid', () => {
+    it('it should be false', () => {
       expect(cardValidator.cardValidator('49295341886603')).to.equal(false);
     });
-    it('card is invalid', () => {
+    it('it should be false', () => {
       expect(cardValidator.cardValidator('ribeiro')).to.equal(false);
     });
-    it('card is valid', () => {
-      expect(cardValidator.cardValidator('4024007156968108')).to.equal(true);
+    it('it should be false', () => {
+      expect(cardValidator.cardValidator('0000000000000000')).to.equal(false);
     });
+
   });
 });
