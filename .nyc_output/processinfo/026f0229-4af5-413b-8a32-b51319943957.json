@@ -1,0 +1,1 @@
+{"uuid":"026f0229-4af5-413b-8a32-b51319943957","parent":null,"pid":29161,"argv":["/usr/bin/node","/usr/bin/mocha"],"execArgv":[],"cwd":"/home/boo/Codes/cardValidator","time":1557114330199,"ppid":29154,"root":"3a7a0ab2-71b2-4aed-9a82-7f7387eb7eb1","coverageFilename":"/home/boo/Codes/cardValidator/.nyc_output/026f0229-4af5-413b-8a32-b51319943957.json","files":[]}

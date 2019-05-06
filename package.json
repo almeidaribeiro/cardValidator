@@ -1,0 +1,31 @@
+{
+  "name": "cardvalidator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almeidaribeiro/cardValidator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almeidaribeiro/cardValidator/issues"
+  },
+  "homepage": "https://github.com/almeidaribeiro/cardValidator#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "nyc": "^14.1.0"
+  }
+}
