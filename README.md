@@ -1,4 +1,6 @@
-# Validador do número de cartão de crédito V.1.0.0
+# cardvalidator-boo
+
+## Validador do número de cartão de crédito V.1.0.0
 
 **Esta biblioteca se destina a validar números de cartão de crédito.**
 Foi usado o algoritmo de Luhn e retorna true ou false de acordo com número testado.
