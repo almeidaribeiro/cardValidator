@@ -1,8 +1,8 @@
 {
-  "name": "cardvalidator",
+  "name": "cardvalidator-boo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A JS library to validate credit card number",
+  "main": "./lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/almeidaribeiro/cardValidator.git"
   },
-  "author": "",
+  "author": "Bruna Almeida",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/almeidaribeiro/cardValidator/issues"
